@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Burger-webpage{
+    background-color: rgba(184, 153, 93, 1);
+    height: 100vh;
+}
+/* --------------------NAVIGATION BAR--------------------- */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(248, 216, 134);
+    z-index: 1;
+}
+#buttonone{
+    margin-left: 6%;
+}
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* -------------------END OF NAVIGATION BAR--------------------- */
+
+/* ------------------------HOME BUTTON-------------------------------------- */
+#buttonone{
+    padding: 10px 30px;
+    background-color:#EAB01D;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#home-button{
+    margin-right:10% ;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-right-radius:90px;
+    padding: 10px 30px;
+    background-color: #EAB01D;
+    color: white;
+    border: none;
+        /* border-radius: 7px; */
+    cursor: pointer;
+    font-weight: bold;
+}
+/* --------------------------End of home button--------------------------------- */
+#Text-Burger{
+    width: 150vh;
+}
+#heading-one{
+    padding-top: 20%;
+    font-size: 50px;
+    color:whitesmoke;
+    margin-left: 25%;
+}
+#paragraph-one{
+    padding-top: 30px;
+    margin-left: 25%;
+    font-size: 17px;
+    color: whitesmoke;
+}
+#color-one{
+    color: #EAB01D;
+}
+#Picture-Burger{
+    width: 100vh;
+    margin-left: 15%;
+    padding-top: 60px;
+}
+.Home-Page{
+    display: flex;
+   
+}
+#menu-button{
+    margin-left: 50%;
+    margin-top:7% ;
+    font-weight: bold;
+    padding: 15px 30px;
+        background-color: #EAB01D;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        font-weight: bold;
+    
+}
+/* ---------------Our foods-------------- */
+#heading-two{
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+}
+.Our-Food{
+    height: 90vh;
+    background-color: rgba(184, 153, 93, 1);
+    padding-top: 50px;
+}
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 20px;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    height: 40vh;
+    background-color: #f1f1f1;
+    border: 2.5px solid #EAB01D;
+    font-weight: bold;
+    font-size: 18px;
+}
+#view-button{
+    margin-left: 45%;
+    margin-top: 7%;
+    font-weight: bold;
+    padding: 15px 30px;
+        background-color: #EAB01D;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        font-weight: bold;
+}
+/* ---------------------------------------- */
+.App{
+    /* height: 30vh; */
+    background-color:rgba(184, 153, 93, 1); 
+}
+/* -----------------DISHES----------------------- */
+.flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    /* border: 2px solid blue; */
+    margin-top: 40%;
+    
+    
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    
+}
+.flip-card-front {
+    background-color: whitesmoke;
+    color: black;
+}
+.flip-card-back {
+    background-color: #EAB01D;
+    color: white;
+    transform: rotateY(180deg);
+}
+.Dishes{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60vh;
+}
+.main-dishes{
+    background-color: rgba(184, 153, 93, 1);
+}
+#heading-three{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+#burger-text{
+    padding-top: 50px;
+    font-size: 20px;
+}
+#cost{
+    padding-top: 40px;
+}
+#btn-dishes{
+    margin-left: 30%;
+    padding: 40px;
+}
+#dishes-button{
+    padding: 10px 30px;
+    background-color: #EAB01D;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 25%;
+}
+/* ----------------------------------- */
+.Burger-popular{
+    height: 100vh;
+    display: flex;
+}
+#text-popular{
+    font-size: 30px;
+    padding-top:90px ;
+}
+#picture-popular{
+    padding-top: 10%;
+}
+#paragraph-popular{
+    font-size: 20px;
+    margin-left: 25%;
+    padding-top: 30px;
+}
+#heading-four{
+    margin-left: 25%;
+}
+#view-btn{
+    padding: 12px 30px;
+    background-color: #EAB01D;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+/* ----------------------------------- */
+.Burger-About{
+    display: flex;
+    justify-content: space-evenly;
+   /* background-color:rgba(184, 153, 93, 1) ; */
+
+}
+.main-About{
+    background-color: rgba(184, 153, 93, 1);
+}
+#About-picture{
+   
+    width: 100vh;
+    /* padding: 40px; */
+    margin-left: 90px;
+}
+#About-text{
+    
+    width: 100vh;
+    padding: 50px;
+    color: whitesmoke;
+    font-size: 24px;
+    padding-top: 7%;
+}
+#heading-five{
+    text-align:center ;
+    /* border: 2px solid red; */
+    font-size: 40px;
+    color: whitesmoke;
+    padding-top: 40px;
+}
+
+/* ------------------------------------------- */
+.review{
+    /* background-color: whitesmoke; */
+    display: flex;
+    justify-content: space-around;
+    /* width: 100vh; */
+}
+#review-text{
+    width: 100vh;
+        padding: 60px;
+        /* color: whitesmoke; */
+        font-size: 26px;
+        color: black;
+        padding-top: 7%;
+}
+#review-picture{
+    padding-top: 27px;
+}
+#review-head{
+    color:#EAB01D;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+}
+#name{
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+/* -------------------FOOTER---------------- */
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(184, 153, 93, 1);
+    padding: 30px;
+}
+
+.column {
+    flex-basis: 30%;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: whitesmoke;
+    font-weight: 18px;
+}
+#burger-textone{
+    font-size: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
